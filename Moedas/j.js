@@ -18,7 +18,7 @@ function converterMoeda(moedaOrigem, valor, moedaDestino) {
 
             const resultado = document.getElementById("resultado"); // onde vai aparecer o resultado
             resultado.innerHTML = `
-                ${valor} ${moedas[moedaOrigem]} equivalem a:
+                ${valor} ${moedas[moedaOrigem]} =
                 ${valorConvertido.toFixed(2)} ${moedas[moedaDestino]}
             `;
         });
