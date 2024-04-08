@@ -1,0 +1,14 @@
+*{
+    /* setar para zero espaço na margem */
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu",sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg,#5d118f 0%,#8dc3d8 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
