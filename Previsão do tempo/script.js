@@ -30,6 +30,8 @@ const showWeatherData = async(city) => {
     tempElement.innerText = parseInt(data.main.temp);
     descElement.innerText = data.weather[0].description;
     weatherIconElement.setAttribute("src", `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
+    umidityElement.innerText = `${data.main.temp}$`;
+    windElement.innerText = `${data.wind.speed} km/h`;
 };
 
 
