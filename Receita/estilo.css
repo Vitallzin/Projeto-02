@@ -1,0 +1,19 @@
+body{
+    background-color: darkgray;
+
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    background-color: antiquewhite;
+    width: 35%;
+} 
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+td{
+    vertical-align: top;
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+} 
