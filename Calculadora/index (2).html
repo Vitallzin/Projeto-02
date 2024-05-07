@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Pag JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script>
+        document.write("<p>Calculadora que só soma </P>")
+    </script>
+   
+        <label for="n1"></label>
+        <input type="number" id="n1" placeholder="Primeiro número"><br>
+        <label for="n2"></label>
+        <input type="number" id="n2" placeholder="Segundo número"><br>
+        <button onclick="Somar()">Somar</button>
+        <label for="Resultado">Resultado: </label>
+        <p id="Resultado"></p>
+    
+    <script>
+        function Somar()
+        {
+            var n1 = document.querySelector("#n1").value;
+            var n2 = document.querySelector("#n2").value;
+            var Resultado = parseInt(n1) + parseInt(n2);
+            document.querySelector("#Resultado").innerHTML = Resultado;
+        }
+
+
+    </script>
+
+
+
+</body>
+</html>
